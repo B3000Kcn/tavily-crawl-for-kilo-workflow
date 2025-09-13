@@ -8,6 +8,8 @@ This is a workflow designed for use within the Kilo environment.
 2.  **Place the Script File**: Move the `tavily-crawl-for-kilo.ps1` script into the `.kilocode\scripts` folder located in your user profile directory (e.g., `C:\Users\YourUser\.kilocode\scripts`). You may need to create this folder if it doesn't exist.
 3.  **Run the Workflow**: Use or call the workflow from within Kilo.
 
+By providing the AI with the two required parameters, a starting URL (`-Url`) and a folder name (`-FolderName`) via natural language, it recursively scrapes the website's content. Optional parameters like `-Instructions`, `-MaxDepth`, and `-ExtractDepth` can be used to refine the crawling process. The final output is a set of Markdown files, one for each crawled page, stored in the `.Docs/<FolderName>` directory within your project's root for easy access and use.
+
 ## Important Notes
 
 *   **Polling Functionality**: The script includes a polling mechanism for handling asynchronous API responses.
@@ -19,6 +21,8 @@ This is a workflow designed for use within the Kilo environment.
 
 # Kilo Crawl 工作流
 
+本工作流用于爬取公开的技术文档。
+
 这是一个专为 Kilo 环境设计的工作流。
 
 ## 使用方法
@@ -26,6 +30,8 @@ This is a workflow designed for use within the Kilo environment.
 1.  **创建工作流文件**: 在 Kilo 中创建一个名为 `tavilycrawl.md` 的新工作流，并将下方章节提供的内容粘贴进去。你可以选择使用英文或中文版本。
 2.  **放置脚本文件**: 将 `tavily-crawl-for-kilo.ps1` 脚本移动到你用户配置文件夹下的 `.kilocode\scripts` 目录中（例如 `C:\Users\YourUser\.kilocode\scripts`）。如果该文件夹不存在，你需要自行创建。
 3.  **运行工作流**: 在 Kilo 中使用或调用该工作流。
+
+通过自然语言向 AI 提供起始网址 (`-Url`) 和文件夹名称 (`-FolderName`) 这两个必需参数，它会递归地抓取网站内容。您还可以使用如 `-Instructions`、`-MaxDepth` 和 `-ExtractDepth` 等可选参数来精确控制抓取过程。最终，每个被抓取的页面都会被转换成一个独立的 Markdown 文件，并统一存放在您项目根目录下的 `.Docs/<FolderName>` 文件夹中，便于后续查阅和使用。
 
 ## 重要提示
 
