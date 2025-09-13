@@ -1,6 +1,6 @@
-# Kilo Crawl Workflow
+# Tavily Crawl for Kilo Workflow
 
-This is a workflow designed for use within the Kilo environment.
+This is a workflow designed for the Kilo environment to crawl the public documentation.
 
 ## How to Use
 
@@ -19,11 +19,9 @@ By providing the AI with the two required parameters, a starting URL (`-Url`) an
 
 ---
 
-# Kilo Crawl 工作流
+# Tavily Crawl for Kilo 工作流
 
-本工作流用于爬取公开的技术文档。
-
-这是一个专为 Kilo 环境设计的工作流。
+这是一个专为 Kilo 环境设计的工作流，用于爬取公开的技术文档。
 
 ## 使用方法
 
