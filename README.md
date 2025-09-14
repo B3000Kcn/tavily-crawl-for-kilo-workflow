@@ -12,7 +12,7 @@ By providing the AI with the two required parameters, a starting URL (`-Url`) an
 
 ## Important Notes
 
-*   **Polling Functionality**: The script includes a polling mechanism for handling asynchronous API responses.
+*   **Polling Functionality**: The script includes a polling mechanism.
 *   **API Keys**: API keys are to be entered directly at the beginning of the script file. They are not loaded from an external `.env` file.
 *   **State Machine**: The script uses a state machine that is automatically created and stored as a file within your user profile's `.kilocode` directory.
 *   **State Machine Reset**: The state machine will be automatically reset whenever the API keys in the script are updated.
@@ -33,7 +33,7 @@ By providing the AI with the two required parameters, a starting URL (`-Url`) an
 
 ## 重要提示
 
-*   **轮询功能**: 脚本内置了用于处理异步 API 响应的轮询机制。
+*   **轮询功能**: 脚本内置了轮询机制。
 *   **API 密钥**: API 密钥需要直接在脚本文件的开头部分填写，而不是从外部 `.env` 文件加载。
 *   **状态机**: 脚本使用一个状态机，该状态机的文件会自动在你的用户配置文件夹下的 `.kilocode` 目录中创建和存储。
 *   **状态机重置**: 每当脚本中的 API 密钥更新时，状态机将自动重置。
